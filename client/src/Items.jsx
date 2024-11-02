@@ -1,7 +1,8 @@
-import SingleItem from './SingleItem';
+import SingleItem from "./SingleItem";
+
 const Items = ({ items }) => {
   return (
-    <div className='items'>
+    <div className="items">
       {items.map((item) => {
         return <SingleItem key={item.id} item={item} />;
       })}
